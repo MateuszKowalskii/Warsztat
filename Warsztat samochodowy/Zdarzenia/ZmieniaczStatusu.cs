@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Warsztat_samochodowy.Okienka.OkienkaZlecenia;
+﻿using Warsztat_samochodowy.Okienka.OkienkaZlecenia;
 
 namespace Warsztat_samochodowy.Zdarzenia
 {

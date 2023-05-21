@@ -1,15 +1,4 @@
-﻿using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Warsztat_samochodowy.Okienka.OkienkaDostawcy;
-using Warsztat_samochodowy.Okienka.OkienkaPracownicy;
-using Warsztat_samochodowy.Okienka.OkienkaZlecenia;
-
-//Wszelkie zdarzenia są wstawione trochę 'na siłę' po to aby pokazać zastosowanie tego typu rozwiązań w projekcie
+﻿//Wszelkie zdarzenia są wstawione trochę 'na siłę' po to aby pokazać zastosowanie tego typu rozwiązań w projekcie
 
 namespace Warsztat_samochodowy.Zdarzenia
 {

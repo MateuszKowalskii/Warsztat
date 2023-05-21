@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Transactions;
-using Warsztat_samochodowy.Okienka.OkienkaDostawcy;
-using Warsztat_samochodowy;
-
-namespace Warsztat_samochodowy.Zdarzenia
+﻿namespace Warsztat_samochodowy.Zdarzenia
 {
     internal class Informator
     {

@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Warsztat_samochodowy.Okienka.OkienkaKlienci
+﻿namespace Warsztat_samochodowy.Okienka.OkienkaKlienci
 {
     public partial class KlientDodaj : Form
     {

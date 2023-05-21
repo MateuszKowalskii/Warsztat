@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Warsztat_samochodowy.Okienka.OkienkaDostawcy;
+﻿using System.Data;
 
 namespace Warsztat_samochodowy.Okienka.OkienkaMagazyn
 {
