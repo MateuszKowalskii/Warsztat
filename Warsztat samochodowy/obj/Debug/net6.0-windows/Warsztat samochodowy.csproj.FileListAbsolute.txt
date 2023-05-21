@@ -1,0 +1,85 @@
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Warsztat samochodowy.exe
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Warsztat samochodowy.deps.json
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Warsztat samochodowy.runtimeconfig.json
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Warsztat samochodowy.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Warsztat samochodowy.pdb
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.csproj.AssemblyReference.cache
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.csproj.GenerateResource.cache
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.AssemblyInfoInputs.cache
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.AssemblyInfo.cs
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\refint\Warsztat samochodowy.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.pdb
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.genruntimeconfig.cache
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\ref\Warsztat samochodowy.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Aplikacja.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.KlienciKontrolka.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.PracownicyKontrolka.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.DostawcyKontrolka.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.MagazynKontrolka.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.ZleceniaKontrolka.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaKlienci.KlientDodaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaKlienci.KlientEdytuj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaKlienci.KlientUsun.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaKlienci.KlientWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat samochodowy.csproj.CopyComplete
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaPracownicy.PracownikDodaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaPracownicy.PracownikEdytuj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaPracownicy.PracownikUsun.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaPracownicy.PracownikWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaDostawcy.DostawcaDodaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaDostawcy.DostawcaEdytuj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaDostawcy.DostawcaUsun.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaDostawcy.DostawcaWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaMagazyn.ZamowienieDodaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaMagazyn.ZamowienieWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaMagazyn.CzescWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaZlecenia.ZlecenieDodaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaZlecenia.ZlecenieEdytuj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaZlecenia.ZlecenieWyszukaj.resources
+C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\obj\Debug\net6.0-windows\Warsztat_samochodowy.Okienka.OkienkaZlecenia.ZlecenieWykonano.resources

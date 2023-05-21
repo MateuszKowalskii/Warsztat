@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Aplikacja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Kontrolki\DostawcyKontrolka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Kontrolki\KlienciKontrolka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Kontrolki\MagazynKontrolka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Kontrolki\PracownicyKontrolka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Kontrolki\ZleceniaKontrolka.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaDostawcy\DostawcaDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaDostawcy\DostawcaEdytuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaDostawcy\DostawcaUsun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaDostawcy\DostawcaWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaKlienci\KlientDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaKlienci\KlientEdytuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaKlienci\KlientUsun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaKlienci\KlientWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaMagazyn\CzescWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaMagazyn\ZamowienieDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaMagazyn\ZamowienieWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaPracownicy\PracownikDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaPracownicy\PracownikEdytuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaPracownicy\PracownikUsun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaPracownicy\PracownikWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaZlecenia\ZlecenieDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaZlecenia\ZlecenieEdytuj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaZlecenia\ZlecenieWykonano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Okienka\OkienkaZlecenia\ZlecenieWyszukaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
