@@ -14,10 +14,13 @@ namespace Warsztat_samochodowy.Okienka.OkienkaKlienci
             this.Close();
         }
 
-        private void szukaj_Click(object sender, EventArgs e)
+        private async void szukaj_Click(object sender, EventArgs e)
         {
             int a;
             int b;
+            string imie = imieWyszukaj.Text;
+            string nazwisko = nazwiskoWyszukaj.Text;
+            int index = sortowanie.SelectedIndex;
             try
             {
                 if (!string.IsNullOrEmpty(peselWyszukaj.Text)) a = int.Parse(peselWyszukaj.Text);
@@ -30,32 +33,41 @@ namespace Warsztat_samochodowy.Okienka.OkienkaKlienci
                 komunikat.Text = "Telefon i PESEL muszą być liczbami całkowitymi";
                 return;
             }
-            using (var kontekst = new KomunikacjaZBD())
+            await Task.Run(() =>
             {
-                IQueryable<Rekordy.Klient> wyniki = kontekst.klienci;
-                if (!string.IsNullOrEmpty(imieWyszukaj.Text)) wyniki = wyniki
-                        .Where(w => w.imie!.Contains(imieWyszukaj.Text));
-                if (!string.IsNullOrEmpty(nazwiskoWyszukaj.Text)) wyniki = wyniki
-                        .Where(w => w.nazwisko!.Contains(nazwiskoWyszukaj.Text));
-                if (a != 0) wyniki = wyniki
-                        .Where(w => w.PESEL.ToString().Contains(a.ToString()));
-                if (b != 0) wyniki = wyniki
-                        .Where(w => w.telefon.ToString().Contains(b.ToString()));
-                znalezioneWyniki.Items.Clear();
-                if (sortowanie.SelectedIndex == 0) wyniki = wyniki.OrderBy(w => w.imie);
-                if (sortowanie.SelectedIndex == 1) wyniki = wyniki.OrderBy(w => w.nazwisko);
-                if (sortowanie.SelectedIndex == 2) wyniki = wyniki.OrderBy(w => w.PESEL);
-                if (sortowanie.SelectedIndex == 3) wyniki = wyniki.OrderBy(w => w.telefon);
-                foreach (var w in wyniki)
+                using (var kontekst = new KomunikacjaZBD())
                 {
-                    ListViewItem kl = new(w.imie);
-                    kl.SubItems.Add(w.nazwisko);
-                    kl.SubItems.Add(w.PESEL.ToString());
-                    kl.SubItems.Add(w.telefon.ToString());
-                    znalezioneWyniki.Items.Add(kl);
+                    IQueryable<Rekordy.Klient> wyniki = kontekst.klienci;
+                    if (!string.IsNullOrEmpty(imie)) wyniki = wyniki
+                            .Where(w => w.imie!.Contains(imie));
+                    if (!string.IsNullOrEmpty(nazwisko)) wyniki = wyniki
+                            .Where(w => w.nazwisko!.Contains(nazwisko));
+                    if (a != 0) wyniki = wyniki
+                            .Where(w => w.PESEL.ToString().Contains(a.ToString()));
+                    if (b != 0) wyniki = wyniki
+                            .Where(w => w.telefon.ToString().Contains(b.ToString()));
+                    znalezioneWyniki.Invoke(new Action(delegate ()
+                    {
+                        znalezioneWyniki.Items.Clear();
+                    }));
+                    if (index == 0) wyniki = wyniki.OrderBy(w => w.imie);
+                    if (index == 1) wyniki = wyniki.OrderBy(w => w.nazwisko);
+                    if (index == 2) wyniki = wyniki.OrderBy(w => w.PESEL);
+                    if (index == 3) wyniki = wyniki.OrderBy(w => w.telefon);
+                    foreach (var w in wyniki)
+                    {
+                        ListViewItem kl = new(w.imie);
+                        kl.SubItems.Add(w.nazwisko);
+                        kl.SubItems.Add(w.PESEL.ToString());
+                        kl.SubItems.Add(w.telefon.ToString());
+                        znalezioneWyniki.Invoke(new Action(delegate ()
+                        {
+                            znalezioneWyniki.Items.Add(kl);
+                        }));
 
+                    }
                 }
-            }
+            });
         }
     }
 }

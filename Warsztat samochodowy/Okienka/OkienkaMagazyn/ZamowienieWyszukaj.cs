@@ -14,32 +14,47 @@ namespace Warsztat_samochodowy.Okienka.OkienkaMagazyn
             this.Close();
         }
 
-        private void szukaj_Click(object sender, EventArgs e)
+        private async void szukaj_Click(object sender, EventArgs e)
         {
-            using (var kontekst = new KomunikacjaZBD())
-            {
-                IQueryable<Rekordy.Zamowienie> wyniki = kontekst.zamowienia;
-                if (!string.IsNullOrEmpty(nazwaWyszukaj.Text)) wyniki = wyniki
-                        .Where(w => w.nazwa!.Contains(nazwaWyszukaj.Text));
-                if (!string.IsNullOrEmpty(kodWyszukaj.Text)) wyniki = wyniki
-                        .Where(w => w.kod!.Contains(kodWyszukaj.Text));
-                if (!string.IsNullOrEmpty(dostawcaWyszukaj.Text)) wyniki = wyniki
-                        .Where(w => w.dostawcaNazwa!.Contains(dostawcaWyszukaj.Text));
-                znalezioneWyniki.Items.Clear();
-                if (sortowanie.SelectedIndex == 0) wyniki = wyniki.OrderBy(w => w.nazwa);
-                if (sortowanie.SelectedIndex == 1) wyniki = wyniki.OrderBy(w => w.kod);
-                if (sortowanie.SelectedIndex == 2) wyniki = wyniki.OrderBy(w => w.dostawcaNazwa);
-                if (sortowanie.SelectedIndex == 3) wyniki = wyniki.OrderBy(w => w.kiedyDotrze);
-                foreach (var w in wyniki)
-                {
-                    ListViewItem kl = new(w.nazwa);
-                    kl.SubItems.Add(w.kod);
-                    kl.SubItems.Add(w.dostawcaNazwa);
-                    kl.SubItems.Add(w.kiedyDotrze);
-                    znalezioneWyniki.Items.Add(kl);
+            string nazwa = nazwaWyszukaj.Text;
+            string kod = kodWyszukaj.Text;
+            string dostawca = dostawcaWyszukaj.Text;
+            int index = sortowanie.SelectedIndex;
 
+            await Task.Run(() =>
+            {
+
+                using (var kontekst = new KomunikacjaZBD())
+                {
+                    IQueryable<Rekordy.Zamowienie> wyniki = kontekst.zamowienia;
+                    if (!string.IsNullOrEmpty(nazwa)) wyniki = wyniki
+                            .Where(w => w.nazwa!.Contains(nazwa));
+                    if (!string.IsNullOrEmpty(kod)) wyniki = wyniki
+                            .Where(w => w.kod!.Contains(kod));
+                    if (!string.IsNullOrEmpty(dostawca)) wyniki = wyniki
+                            .Where(w => w.dostawcaNazwa!.Contains(dostawca));
+                    znalezioneWyniki.Invoke(new Action(delegate ()
+                    {
+                        znalezioneWyniki.Items.Clear();
+                    }));
+                    if (index == 0) wyniki = wyniki.OrderBy(w => w.nazwa);
+                    if (index == 1) wyniki = wyniki.OrderBy(w => w.kod);
+                    if (index == 2) wyniki = wyniki.OrderBy(w => w.dostawcaNazwa);
+                    if (index == 3) wyniki = wyniki.OrderBy(w => w.kiedyDotrze);
+                    foreach (var w in wyniki)
+                    {
+                        ListViewItem kl = new(w.nazwa);
+                        kl.SubItems.Add(w.kod);
+                        kl.SubItems.Add(w.dostawcaNazwa);
+                        kl.SubItems.Add(w.kiedyDotrze);
+                        znalezioneWyniki.Invoke(new Action(delegate ()
+                        {
+                            znalezioneWyniki.Items.Add(kl);
+                        }));
+
+                    }
                 }
-            }
+            });
         }
     }
 }

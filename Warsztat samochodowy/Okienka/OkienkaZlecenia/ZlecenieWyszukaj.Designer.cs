@@ -252,9 +252,9 @@
         private ColumnHeader kolumnaPESEL;
         private ColumnHeader kolumnaStatus;
         private ColumnHeader kolumnaData;
-        private ComboBox statusWyszukaj;
         private Label label3;
         private TextBox idWyszukaj;
         private TextBox pesel;
+        public ComboBox statusWyszukaj;
     }
 }
