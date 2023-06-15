@@ -1,5 +1,3 @@
-using Warsztat_samochodowy.Zdarzenia;
-
 namespace Warsztat_samochodowy
 {
     internal static class Program
@@ -20,8 +18,6 @@ namespace Warsztat_samochodowy
 
 
             program.panelGlowny.Show();
-            //program.klienciStrona.Hide();
-            //program.pracownicyStrona.Hide();
 
         }
     }
