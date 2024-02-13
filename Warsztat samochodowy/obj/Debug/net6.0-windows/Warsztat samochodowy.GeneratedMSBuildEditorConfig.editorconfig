@@ -15,3 +15,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Warsztat_samochodowy
 build_property.ProjectDir = C:\Users\mateu\source\repos\Szkoła\Warsztat samochodowy\Warsztat samochodowy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

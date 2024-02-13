@@ -1,4 +1,4 @@
-namespace Warsztat_samochodowy
+namespace Warsztat
 {
     internal static class Program
     {
